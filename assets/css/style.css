@@ -1,8 +1,10 @@
+/* Header */
 header {
   background-color: #191944 !important;
   color: #f1ead0;
 }
 
+/* Navbar */
 .navbar-nav .nav-link {
   color: #f1ead0 !important;
 }
@@ -16,6 +18,7 @@ header {
   align-items: center;
 }
 
+/* Logo */
 .logoWrite {
   line-height: 0.5em;
   text-align: center;
@@ -35,6 +38,7 @@ header {
   margin-right: 15px;
 }
 
+/* search Input */
 .searchButton {
   padding: 0.3em 1em;
   border-radius: 0.5em;
@@ -57,4 +61,25 @@ header {
 .navbar-toggler {
   color: #f1ead0 !important;
   border: 2px solid #f1ead0 !important;
+}
+
+/* Review */
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.testimonial img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #191944;
+}
+.testimonial-content {
+  flex-grow: 1;
+}
+.testimonial h5 {
+  margin: 0;
+  font-weight: bold;
 }
