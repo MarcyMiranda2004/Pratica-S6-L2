@@ -71,10 +71,11 @@ header {
 
 /* Agenzia Info */
 #agencyInfo {
-  background-color: #d8d6d0;
+  background-color: #191944de;
   padding: 2em;
   border-radius: 10px;
   text-align: center;
+  color: #f1ead0;
 }
 
 .agencyName {
@@ -93,7 +94,6 @@ header {
 }
 
 .viaggiaOra p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 2em;
 }
 
@@ -142,6 +142,7 @@ header {
   top: 5px;
   right: 5px;
 }
+
 /* Last Minute */
 .cursor-pointer {
   cursor: pointer !important;
